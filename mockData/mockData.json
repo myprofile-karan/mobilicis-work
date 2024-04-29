@@ -1,0 +1,202 @@
+[
+  {
+      "id": 1,
+      "title": "Software Engineer",
+      "company": "TechCo Japan",
+      "location": "Tokyo",
+      "description": "TechCo Japan is seeking a talented Software Engineer to join our dynamic team in Tokyo. You will be responsible for developing and maintaining high-quality software solutions for our clients.",
+      "requirements": "Bachelor's degree in Computer Science or related field. Proficiency in Java, JavaScript, or Python. Strong problem-solving skills and ability to work in a team environment.",
+      "posted_date": "2024-04-22",
+      "expiration_date": "2024-05-22"
+  },
+  {
+      "id": 2,
+      "title": "Marketing Specialist",
+      "company": "Global Marketing Agency",
+      "location": "Osaka",
+      "description": "Join our global marketing team in Osaka! We are looking for a creative and driven Marketing Specialist to develop and execute marketing strategies for our clients.",
+      "requirements": "Bachelor's degree in Marketing or related field. Proven experience in digital marketing, SEO, and social media management. Excellent communication and analytical skills.",
+      "posted_date": "2024-04-20",
+      "expiration_date": "2024-05-20"
+  },
+  {
+      "id": 3,
+      "title": "English Teacher",
+      "company": "International School",
+      "location": "Kyoto",
+      "description": "Become part of our dedicated team at an international school in Kyoto! We are seeking passionate and qualified English Teachers to inspire and educate students.",
+      "requirements": "Bachelor's degree in Education or related field. TEFL or TESOL certification. Native or near-native English proficiency. Previous teaching experience preferred.",
+      "posted_date": "2024-04-18",
+      "expiration_date": "2024-05-18"
+  },
+  {
+      "id": 4,
+      "title": "Frontend Developer",
+      "company": "WebTech Japan",
+      "location": "Tokyo",
+      "description": "WebTech Japan is looking for a skilled Frontend Developer to join our team in Tokyo. You will collaborate with designers and backend developers to create user-friendly web applications.",
+      "requirements": "Strong proficiency in HTML, CSS, and JavaScript. Experience with modern frontend frameworks such as React or Vue.js. Good understanding of responsive design principles.",
+      "posted_date": "2024-04-15",
+      "expiration_date": "2024-05-15"
+  },
+  {
+      "id": 5,
+      "title": "Financial Analyst",
+      "company": "Finance Solutions Inc.",
+      "location": "Tokyo",
+      "description": "Finance Solutions Inc. is seeking a detail-oriented Financial Analyst to join our team in Tokyo. You will be responsible for financial modeling, analysis, and reporting to support decision-making.",
+      "requirements": "Bachelor's degree in Finance, Accounting, or related field. Strong analytical skills and proficiency in Excel. Knowledge of financial principles and accounting standards.",
+      "posted_date": "2024-04-12",
+      "expiration_date": "2024-05-12"
+  },
+  {
+      "id": 6,
+      "title": "Graphic Designer",
+      "company": "Creative Agency Japan",
+      "location": "Osaka",
+      "description": "Join our creative team in Osaka! We are looking for a talented Graphic Designer to create engaging visual content for our clients' marketing campaigns.",
+      "requirements": "Bachelor's degree in Graphic Design or related field. Proficiency in Adobe Creative Suite (Photoshop, Illustrator, InDesign). Strong portfolio showcasing creative design work.",
+      "posted_date": "2024-04-10",
+      "expiration_date": "2024-05-10"
+  },
+  {
+      "id": 7,
+      "title": "English Editor",
+      "company": "Publishing House Japan",
+      "location": "Tokyo",
+      "description": "Publishing House Japan is seeking an experienced English Editor to join our editorial team in Tokyo. You will edit and proofread English manuscripts for publication.",
+      "requirements": "Bachelor's degree in English, Journalism, or related field. Excellent command of English grammar and writing. Previous editing experience preferred.",
+      "posted_date": "2024-04-08",
+      "expiration_date": "2024-05-08"
+  },
+  {
+      "id": 8,
+      "title": "Sales Representative",
+      "company": "Tech Solutions Co.",
+      "location": "Fukuoka",
+      "description": "Tech Solutions Co. is expanding its sales team in Fukuoka! We are looking for motivated Sales Representatives to promote our products and services to clients.",
+      "requirements": "Bachelor's degree in Business Administration or related field. Proven sales experience and strong negotiation skills. Excellent communication and interpersonal skills.",
+      "posted_date": "2024-04-05",
+      "expiration_date": "2024-05-05"
+  },
+  {
+      "id": 9,
+      "title": "Human Resources Manager",
+      "company": "Global Corporation Japan",
+      "location": "Nagoya",
+      "description": "Global Corporation Japan is seeking a dynamic Human Resources Manager to lead our HR department in Nagoya. You will oversee recruitment, training, and employee relations.",
+      "requirements": "Bachelor's degree in Human Resources Management or related field. Proven experience in HR management. Knowledge of labor laws and regulations in Japan.",
+      "posted_date": "2024-04-02",
+      "expiration_date": "2024-05-02"
+  },
+  {
+      "id": 10,
+      "title": "Customer Support Specialist",
+      "company": "E-commerce Japan",
+      "location": "Sapporo",
+      "description": "E-commerce Japan is hiring Customer Support Specialists in Sapporo! Join our team and provide exceptional customer service to our online shoppers.",
+      "requirements": "High school diploma or equivalent. Excellent communication skills and customer service orientation. Ability to multitask and work in a fast-paced environment.",
+      "posted_date": "2024-03-30",
+      "expiration_date": "2024-04-30"
+  },
+  {
+      "id": 11,
+      "title": "UX/UI Designer",
+      "company": "Digital Agency Tokyo",
+      "location": "Tokyo",
+      "description": "Digital Agency Tokyo is looking for a creative UX/UI Designer to join our team in Tokyo. You will work closely with product managers and developers to design intuitive and user-friendly interfaces for web and mobile applications.",
+      "requirements": "Bachelor's degree in Design, Human-Computer Interaction, or related field. Proficiency in design tools such as Sketch, Adobe XD, or Figma. Strong understanding of user-centered design principles.",
+      "posted_date": "2024-03-28",
+      "expiration_date": "2024-04-28"
+  },
+  {
+      "id": 12,
+      "title": "Data Scientist",
+      "company": "AI Tech Solutions",
+      "location": "Kyoto",
+      "description": "AI Tech Solutions is seeking a talented Data Scientist to join our team in Kyoto. You will develop machine learning models and algorithms to extract insights and drive business decisions.",
+      "requirements": "Master's or PhD in Computer Science, Statistics, or related field. Proficiency in programming languages such as Python or R. Experience with machine learning frameworks and data visualization tools.",
+      "posted_date": "2024-03-25",
+      "expiration_date": "2024-04-25"
+  },
+  {
+      "id": 13,
+      "title": "Product Manager",
+      "company": "Tech Start-up Inc.",
+      "location": "Osaka",
+      "description": "Tech Start-up Inc. is looking for a Product Manager to lead the development of innovative software products. You will define product vision, prioritize features, and collaborate with cross-functional teams.",
+      "requirements": "Bachelor's degree in Business, Computer Science, or related field. Proven experience in product management or software development. Strong analytical and problem-solving skills.",
+      "posted_date": "2024-03-22",
+      "expiration_date": "2024-04-22"
+  },
+  {
+      "id": 14,
+      "title": "Content Writer",
+      "company": "Content Marketing Agency",
+      "location": "Tokyo",
+      "description": "Content Marketing Agency is seeking a talented Content Writer to join our team in Tokyo. You will create compelling and engaging content for various digital channels, including blogs, social media, and email newsletters.",
+      "requirements": "Bachelor's degree in English, Journalism, Communications, or related field. Proven experience in content writing or copywriting. Excellent writing and editing skills.",
+      "posted_date": "2024-03-20",
+      "expiration_date": "2024-04-20"
+  },
+  {
+      "id": 15,
+      "title": "IT Support Specialist",
+      "company": "Tech Solutions Japan",
+      "location": "Nagoya",
+      "description": "Tech Solutions Japan is hiring an IT Support Specialist in Nagoya! Join our team and provide technical assistance to end-users, troubleshoot hardware and software issues, and maintain IT infrastructure.",
+      "requirements": "Associate degree or technical certification in IT or related field. Proven experience in IT support or help desk role. Strong knowledge of computer systems, networks, and troubleshooting techniques.",
+      "posted_date": "2024-03-18",
+      "expiration_date": "2024-04-18"
+  },
+  {
+      "id": 16,
+      "title": "Accountant",
+      "company": "Finance Consulting Group",
+      "location": "Fukuoka",
+      "description": "Finance Consulting Group is seeking a qualified Accountant to join our team in Fukuoka. You will be responsible for financial reporting, analysis, and compliance with accounting standards and regulations.",
+      "requirements": "Bachelor's degree in Accounting, Finance, or related field. CPA or equivalent certification preferred. Strong understanding of accounting principles and financial reporting.",
+      "posted_date": "2024-03-15",
+      "expiration_date": "2024-04-15"
+  },
+  {
+      "id": 17,
+      "title": "HR Coordinator",
+      "company": "International Corporation",
+      "location": "Osaka",
+      "description": "International Corporation is hiring an HR Coordinator in Osaka! Join our HR team and support recruitment, onboarding, and employee relations activities.",
+      "requirements": "Bachelor's degree in Human Resources, Business Administration, or related field. Proven experience in HR support or administrative role. Strong organizational and communication skills.",
+      "posted_date": "2024-03-12",
+      "expiration_date": "2024-04-12"
+  },
+  {
+      "id": 18,
+      "title": "Network Engineer",
+      "company": "Telecommunications Inc.",
+      "location": "Tokyo",
+      "description": "Telecommunications Inc. is seeking a skilled Network Engineer to join our team in Tokyo. You will design, implement, and maintain network infrastructure to ensure high performance and reliability.",
+      "requirements": "Bachelor's degree in Computer Science, Information Technology, or related field. Cisco certification (CCNA, CCNP) preferred. Experience with network protocols, security, and troubleshooting.",
+      "posted_date": "2024-03-10",
+      "expiration_date": "2024-04-10"
+  },
+  {
+      "id": 19,
+      "title": "Operations Manager",
+      "company": "Logistics Solutions Japan",
+      "location": "Nagoya",
+      "description": "Logistics Solutions Japan is hiring an Operations Manager in Nagoya! Join our logistics team and oversee warehouse operations, inventory management, and distribution processes.",
+      "requirements": "Bachelor's degree in Business, Logistics, or related field. Proven experience in operations management or supply chain management. Strong leadership and problem-solving skills.",
+      "posted_date": "2024-03-08",
+      "expiration_date": "2024-04-08"
+  },
+  {
+      "id": 20,
+      "title": "Quality Assurance Analyst",
+      "company": "Software Solutions Co.",
+      "location": "Fukuoka",
+      "description": "Software Solutions Co. is seeking a detail-oriented Quality Assurance Analyst to join our team in Fukuoka. You will develop and execute test plans, identify defects, and ensure software quality.",
+      "requirements": "Bachelor's degree in Computer Science, Engineering, or related field. Proven experience in software testing and quality assurance. Strong analytical and problem-solving skills.",
+      "posted_date": "2024-03-05",
+      "expiration_date": "2024-04-05"
+  }
+]

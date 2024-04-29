@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="Content-Type" content="text/html; charset=x-euc"> -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Opportunities in Japan</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./mockData.json">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Work<span>Place</span></h1>
+            <div class="header-right">
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#job-listings">Job Listings</a></li>
+                        <li><a href="#about-japan">About Japan</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <div class="lang-selection">
+                    <i class="fa-solid fa-globe"></i>
+                    <select name="" id="selectLang">
+                        <option value="EN">EN</option>
+                        <option value="JAP">JAP</option>
+                    </select>
+                </div>
+                <i class="fa-solid fa-bars" id="sidebarIcon" onclick="return openSIdebar()"></i>
+            </div>
+            <nav class="sidebar" id="sidebar">
+                <i class="fa-solid fa-xmark" id="closeIcon" onclick="return closeSidebar()"></i>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#job-listings">Job Listings</a></li>
+                    <li><a href="#about-japan">About Japan</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="home" class="section">
+            <div style="--clip: 100%" class="animation">
+                <img src="./assets/anim.jpg" width="100%" height="100%" alt="">
+                <div class="after">
+                    <u><h1>Work Opportunities in Japan</h1></u> 
+                    <h4>日本での就労機会</h4>
+                </div>
+            </div>
+            <div class="content">
+                <h2>Discover Exciting Job Opportunities in Japan</h2>
+                <p>Explore a wide range of career options in various industries across Japan. Whether you're interested
+                    in technology, finance, hospitality, or teaching, Japan offers diverse opportunities for
+                    professionals from around the world.</p>
+                <p>With its unique blend of tradition and innovation, working in Japan not only provides professional
+                    growth but also an enriching cultural experience.</p>
+                <a href="#job-listings" class="btn">Browse Job Listings</a>
+            </div>
+        </section>
+
+        <section id="job-listings" class="section">
+            <div class="content">
+                <h2 data-aos="fade-up" data-aos-duration="1000">Job Listings</h2>
+                <div id="job-listings-container">
+                    <!-- Job Listings will be dynamically loaded here -->
+                </div>
+                <a href="./joblisting.html">See more jobs <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </section>
+
+        <section id="about-japan" class="section">
+            <div class="content">
+                <h2 data-aos="fade-up" data-aos-duration="1000">About</h2>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <div class="image" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="overlay">Work Culture</div>
+                            <img src="./assets/work.png" alt="Work Culture">
+                        </div>
+                        <div class="item-content" data-aos="fade-up" data-aos-duration="1000">
+                            <h3>Work Culture</h3>
+                            <p>Japan's work culture is deeply rooted in principles of dedication, teamwork, and respect.
+                                Employees often exhibit strong loyalty to their companies and prioritize collective
+                                goals over individual achievements.</p>
+                            <p>Long working hours are common, and overtime is considered a sign of commitment. However,
+                                efforts are being made to promote work-life balance, with initiatives such as "Premium
+                                Friday" encouraging employees to leave work early on the last Friday of the month.</p>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <div class="image" data-aos="fade-up" data-aos-duration="1300">
+                            <div class="overlay">Lifestyle</div>
+                            <img src="./assets/image.jpg" alt="Work Culture">
+                        </div>
+                        <div class="item-content" data-aos="fade-up" data-aos-duration="1300">
+                            <h3>Lifestyle</h3>
+                            <p>Beyond work, Japan offers a diverse and vibrant lifestyle that blends tradition with
+                                modernity. From serene traditional tea ceremonies to bustling city streets, Japan caters
+                                to
+                                a wide range of interests.</p>
+                            <p>Urban centers like Tokyo and Osaka are known for their bustling nightlife, world-class
+                                dining, and cutting-edge technology. On the other hand, rural areas offer tranquil
+                                landscapes, hot springs (onsen), and opportunities for outdoor activities such as hiking
+                                and
+                                skiing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact" class="section">
+            <div class="content">
+                <h2 data-aos="fade-up" data-aos-duration="1000">Contact Us</h2>
+                <p data-aos="fade-up" data-aos-duration="1100">Have questions or feedback? Reach out to us!</p>
+                <p data-aos="fade-up" data-aos-duration="1200">For inquiries about job opportunities or partnership
+                    opportunities, please fill out the form below or
+                    email us at <a href="mailto:info@workinjapan.com">info@workinjapan.com</a>.</p>
+                <form id="contact-form">
+                    <div class="name" data-aos="fade-up" data-aos-duration="600">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="email" data-aos="fade-up" data-aos-duration="800">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="messag" data-aos="fade-up" data-aos-duration="1000">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button data-aos="fade-up" data-aos-duration="1200" type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Work Opportunities in Japan</p>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
